@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.top-bar {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.social-icons a:hover {
+    opacity: 1;
+  
+
+}
+
+.contact-info {
+    display: flex;
+    text-decoration: none;
+   
+    color: white;
+    align-items: center;
+    gap: 20px;
+}
+
+.phone-number {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.call-me-back {
+    background-color: #8BC34A;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.main-nav {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px 0;
+    position: relative;
+}
+
+.nav-links a:hover {
+font-weight: bold;
+    border-bottom: 4px solid yellow;
+}
+.nav-links a.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: yellow;
+    font-weight: bold;
+}
